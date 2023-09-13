@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚲</text></svg>">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
   <!-- Initial CSS -->
@@ -235,6 +237,7 @@
         --one-unit: 1cqw
       }
     }
+
     a,
     abbr,
     acronym,
@@ -692,6 +695,7 @@
     .d7EBK2 {
       border-radius: var(--overflow-wrapper-border-radius)
     }
+
     .StylableButton2545352419__root {
       -archetype: box;
       border: none;
@@ -1435,6 +1439,7 @@
       pointer-events: none;
       z-index: var(--pinned-layer-in-container, var(--above-all-in-container))
     }
+
     :host(:not(.device-mobile-optimized)) .CohWsy,
     body:not(.device-mobile-optimized) .CohWsy {
       --display: flex;
@@ -2430,6 +2435,7 @@
       background-color: #a0138e;
       color: #fff
     }
+
     .LHrbPP {
       background: #fff;
       border-radius: 24px;
@@ -2456,6 +2462,7 @@
       pointer-events: auto;
       width: auto
     }
+
     .Oqnisf {
       overflow: visible
     }
@@ -2724,6 +2731,7 @@
     .MBOSCN .FRCqDF[data-divider-layer="3"] {
       display: var(--divider-bottom-layer-3-display, block)
     }
+
     .GPmm8Z {
       direction: var(--direction);
       display: flex;
@@ -2739,12 +2747,16 @@
       margin: var(--item-margin)
     }
 
-    .o6oDlF {
-      margin: -50px calc(-1*var(--docked-margin));
-      overflow: hidden;
-      padding: 50px var(--docked-margin);
-      pointer-events: none
+    .stories {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
+
+    .stories>div {
+      margin-bottom: 70px;
+    }
+
     body.ZR3zoU {
       overflow: hidden
     }
@@ -3196,55 +3208,922 @@
         flex-basis: auto !important
       }
     }
+
     .TWFxr5 {
       height: auto !important
     }
+
+    .KvoMHf.ErucfC[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      margin: 0
+    }
+
+    .MpKiNN {
+      --display: flex;
+      display: var(--display);
+      flex-direction: column;
+      min-height: 25px;
+      position: relative
+    }
+
+    .MpKiNN .pUnTVX {
+      height: var(--inputHeight);
+      position: relative
+    }
+
+    .MpKiNN .eXvLsN {
+      align-items: center;
+      display: flex;
+      font: var(--fntprefix, normal normal normal 16px/1.4em helvetica-w01-roman);
+      justify-content: center;
+      left: 0;
+      max-height: 100%;
+      min-height: 100%;
+      position: absolute;
+      top: 0;
+      width: 50px
+    }
+
+    .MpKiNN .KvoMHf,
+    .MpKiNN .eXvLsN {
+      color: var(--corvid-color, rgb(var(--txt, var(--color_15))))
+    }
+
+    .MpKiNN .KvoMHf {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-color: var(--corvid-background-color, rgba(var(--bg, 255, 255, 255), var(--alpha-bg, 1)));
+      border-color: var(--corvid-border-color, rgba(var(--brd, 227, 227, 227), var(--alpha-brd, 1)));
+      border-radius: var(--corvid-border-radius, var(--rd, 0));
+      border-style: solid;
+      border-width: var(--corvid-border-width, var(--brw, 1px));
+      box-shadow: var(--shd, 0 0 0 transparent);
+      box-sizing: border-box !important;
+      direction: var(--dir);
+      font: var(--fnt, var(--font_8));
+      margin: 0;
+      max-width: 100%;
+      min-height: var(--inputHeight);
+      padding: var(--textPadding);
+      text-align: var(--textAlign);
+      text-overflow: ellipsis;
+      width: 100%
+    }
+
+    .MpKiNN .KvoMHf[type=number] {
+      -webkit-appearance: textfield;
+      -moz-appearance: textfield;
+      width: 100%
+    }
+
+    .MpKiNN .KvoMHf::-moz-placeholder {
+      color: rgb(var(--txt2, var(--color_15)))
+    }
+
+    .MpKiNN .KvoMHf:-ms-input-placeholder {
+      color: rgb(var(--txt2, var(--color_15)))
+    }
+
+    .MpKiNN .KvoMHf::placeholder {
+      color: rgb(var(--txt2, var(--color_15)))
+    }
+
+    .MpKiNN .KvoMHf:hover {
+      background-color: rgba(var(--bgh, 255, 255, 255), var(--alpha-bgh, 1));
+      border-color: rgba(var(--brdh, 163, 217, 246), var(--alpha-brdh, 1));
+      border-style: solid;
+      border-width: var(--brwh, 1px)
+    }
+
+    .MpKiNN .KvoMHf:disabled {
+      background-color: rgba(var(--bgd, 204, 204, 204), var(--alpha-bgd, 1));
+      border-color: rgba(var(--brdd, 163, 217, 246), var(--alpha-brdd, 1));
+      border-style: solid;
+      border-width: var(--brwd, 1px);
+      color: rgb(var(--txtd, 255, 255, 255))
+    }
+
+    .MpKiNN:not(.LyB02C) .KvoMHf:focus {
+      background-color: rgba(var(--bgf, 255, 255, 255), var(--alpha-bgf, 1));
+      border-color: rgba(var(--brdf, 163, 217, 246), var(--alpha-brdf, 1));
+      border-style: solid;
+      border-width: var(--brwf, 1px)
+    }
+
+    .MpKiNN.LyB02C .KvoMHf:invalid {
+      background-color: rgba(var(--bge, 255, 255, 255), var(--alpha-bge, 1));
+      border-color: rgba(var(--brde, 163, 217, 246), var(--alpha-brde, 1));
+      border-style: solid;
+      border-width: var(--brwe, 1px)
+    }
+
+    .MpKiNN.LyB02C .KvoMHf:not(:invalid):focus {
+      background-color: rgba(var(--bgf, 255, 255, 255), var(--alpha-bgf, 1));
+      border-color: rgba(var(--brdf, 163, 217, 246), var(--alpha-brdf, 1));
+      border-style: solid;
+      border-width: var(--brwf, 1px)
+    }
+
+    .MpKiNN .wPeA6j {
+      display: none
+    }
+
+    .MpKiNN.qzvPmW .wPeA6j {
+      color: rgb(var(--txtlbl, var(--color_15)));
+      direction: var(--dir);
+      display: inline-block;
+      font: var(--fntlbl, var(--font_8));
+      line-height: 1;
+      margin-bottom: var(--labelMarginBottom);
+      padding: var(--labelPadding);
+      text-align: var(--textAlign);
+      word-break: break-word
+    }
+
+    .MpKiNN.qzvPmW.lPl_oN .wPeA6j:after {
+      color: rgba(var(--txtlblrq, 0, 0, 0), var(--alpha-txtlblrq, 0));
+      content: " *";
+      display: var(--requiredIndicationDisplay, none)
+    }
+
+    .nTOEE9 {
+      height: 100%;
+      overflow: hidden;
+      width: 100%
+    }
+
+    .nTOEE9.sqUyGm:hover {
+      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAAH6ji2bAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpmMWUzNTlkMS1hYjZhLTNkNDctYmM0ZC03MWMyZDYyMWNmNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODM3MEUzMUU4OTAyMTFFMzk3Q0FCMkFEODdDNzUzMjQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODM3MEUzMUQ4OTAyMTFFMzk3Q0FCMkFEODdDNzUzMjQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk0ZTkyMTRlLThiNDQtNjc0My04MWZiLTZlYjIzYTA2ZjcwNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpmMWUzNTlkMS1hYjZhLTNkNDctYmM0ZC03MWMyZDYyMWNmNDgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4bqsJgAAACF0lEQVR42mJgQAd8fHz/gdRvRigfxGEACCA4YvwPBMgCbgABBGOAJP6LiooiZBUUFMCC7969Awk6AQQQA1bAxMTUOnXq1P8/f/78j2zdf5BDQDgoKAgiyMgItv0/1AkozlgJlHwPpDWB+AhAACFL1EJVwvBPIGZHd8P/OXPmgI0F2YdmxXQUhX///sVQqK2tDVL4DFkhF8zK2NjY/4aGhshOOMJAJAB5ZjdAADGQCpiB4Cear3uwKQR74vv372BPLFq0CKZ4GnLcdMGiFtnXmzZtQo0Bdnb2r/b29nBFMIwUjkxghby8vHfFxMQwTMQWp0YggZcvX/5HBpqamhgKQdafAQnq6en9j4+P/4/me150nzsCPfYOKrkWKvYCymcjJozPgqIYIMAYcUjKAnEcELsDbVECOpkNiO8B+buAeCEQ3yUqFllYWNYh+4Obm/u/ubn5f0tLy//QPIqM90ATHVagDHTJH5BCfn7+/xcvXvyPC9y7d+8/KHqghv4FYj0M04BxeAOkQEhI6P+vX79QDECOeBj49+/ffzk5OZih91FyP4gAGiIDooH5hIGVlRUsAXQpGMMAMh+Y1xksLCzg5QxGrAFzwAxY2GzYsIGgC48cOYIclsuwBiIbG9sCmCJFRcX/+/fvxwi/EydOwIoDGH6JLQEiA26ga1egxSY2vAUpkcKKEV5iCwVOIObBU8w8RzLYgYHaAAACg5CxaxSLgwAAAABJRU5ErkJggg==), auto
+    }
+
+    .nTOEE9.C_JY0G:hover {
+      cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAAH6ji2bAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpmMWUzNTlkMS1hYjZhLTNkNDctYmM0ZC03MWMyZDYyMWNmNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0I4QkNGQTI4OTAyMTFFMzg0RDlBRkM5NDA5QjczRTEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0I4QkNGQTE4OTAyMTFFMzg0RDlBRkM5NDA5QjczRTEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk0ZTkyMTRlLThiNDQtNjc0My04MWZiLTZlYjIzYTA2ZjcwNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpmMWUzNTlkMS1hYjZhLTNkNDctYmM0ZC03MWMyZDYyMWNmNDgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7hiSPZAAACGklEQVR42mJgQAd8fHz/gdRvRigfxGEACCA4YvwPBMgCbgABBGOAJP6LiooiZBUUFMCC7969Awk6AQQQA1bAxMTUOnXq1P8/f/78j2zdf5BDQDgoKAgiyMgItv0/1AkozlgJlHwPpDWB+AhAACFL1EJVwvBPIGZHd8P/OXPm/EcHUA3TURT+/fsXQ6G2tjZI4TNkhVwwK2NjY/8bGhoiO+EIA5EA5JndAAHEQCpgBoKfaL7uwaYQHLrfv38He2LRokUwxdOQ46YLFrXIYNOmTagxwM7O/tXe3h4sCYs3EEYKRyawQl5e3rtiYmL/sQH0ODUCCbx8+RJFkaamJoZCkPVnQIJ6enr/4+Pj/6P5nhfd545Aj72DSq6Fir2A8tmICeOzoCgGCDBGHJKyQBwHxO5AW5SATmYD4ntA/i4gXgjEd4mKRRYWlnXI/uDm5v5vbm7+39LS8j80jyLjPdBEhxUoA13yB6SQn5///8WLF//jAvfu3fsPih6ooX+BWA/DNGAc3gApEBIS+v/r16//hMC/f//+y8nJwQy9j2wWC4gAGiIDooH5hIGVlRUsAXQpVq98/PgRVBAwWFhYMDx69AhczkBj7RdyFpgBC5sNGzYQdOGRI0eQw3IZVpvZ2NgWwBQpKir+379/P4ZBJ06cgBUHMPwSWwJEBtxA165Ai01seAtSIoUVI7zEFgqcQMyDp5h5jmSwAwO1AQBU5q033XYWQwAAAABJRU5ErkJggg==), auto
+    }
+
+    .HlRz5e {
+      display: block;
+      height: 100%;
+      width: 100%
+    }
+
+    .HlRz5e img {
+      max-width: var(--wix-img-max-width, 100%)
+    }
+
+    .HlRz5e[data-animate-blur] img {
+      filter: blur(9px);
+      transition: filter .8s ease-in
+    }
+
+    .HlRz5e[data-animate-blur] img[data-load-done] {
+      filter: none
+    }
+
+    .rYiAuL {
+      cursor: pointer
+    }
+
+    .gSXewE {
+      height: 0;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      width: 0
+    }
+
+    .MVY5Lo {
+      box-sizing: border-box;
+      height: 100%;
+      width: 100%
+    }
+
+    .NM_OGj {
+      min-height: var(--image-min-height);
+      min-width: var(--image-min-width)
+    }
+
+    .NM_OGj img {
+      filter: var(--filter-effect-svg-url);
+      -webkit-mask-image: var(--mask-image, none);
+      mask-image: var(--mask-image, none);
+      -webkit-mask-position: var(--mask-position, 0);
+      mask-position: var(--mask-position, 0);
+      -webkit-mask-repeat: var(--mask-repeat, no-repeat);
+      mask-repeat: var(--mask-repeat, no-repeat);
+      -webkit-mask-size: var(--mask-size, 100% 100%);
+      mask-size: var(--mask-size, 100% 100%);
+      -o-object-position: var(--object-position);
+      object-position: var(--object-position)
+    }
+
+    .v__F4U .MVY5Lo {
+      background-color: rgba(var(--brd, var(--color_11)), var(--alpha-brd, 1));
+      border-color: rgba(var(--brd, var(--color_11)), var(--alpha-brd, 1));
+      border-radius: var(--rd, 5px);
+      border-style: solid;
+      border-width: var(--brw, 2px);
+      box-shadow: var(--shd, 0 1px 3px rgba(0, 0, 0, .5));
+      display: block;
+      height: 100%;
+      overflow: hidden
+    }
+
+    .v__F4U .NM_OGj {
+      border-radius: calc(var(--sizeRd, var(--rd, 5px)) - var(--sizeBrw, var(--brw, 2px)));
+      overflow: hidden
+    }
+
+    .snt4Te .rEindN {
+      -webkit-appearance: none;
+      background-color: var(--corvid-background-color, rgba(var(--bg, 255, 255, 255), var(--alpha-bg, 1)));
+      border-color: var(--corvid-border-color, rgba(var(--brd, 227, 227, 227), var(--alpha-brd, 1)));
+      border-radius: var(--corvid-border-radius, var(--rd, 0));
+      border-style: solid;
+      border-width: var(--corvid-border-width, var(--brw, 1px));
+      box-shadow: var(--shd, 0 0 0 transparent);
+      box-sizing: border-box !important;
+      color: var(--corvid-color, rgb(var(--txt, var(--color_15))));
+      direction: var(--dir);
+      display: block;
+      font: var(--fnt, var(--font_8));
+      height: var(--inputHeight);
+      margin: 0;
+      max-width: 100%;
+      min-width: 100%;
+      overflow-y: auto;
+      padding: var(--textPadding, 3px);
+      padding-top: .75em;
+      resize: none;
+      text-align: var(--textAlign)
+    }
+
+    .snt4Te .rEindN::-moz-placeholder {
+      color: rgb(var(--txt2, var(--color_15)))
+    }
+
+    .snt4Te .rEindN:-ms-input-placeholder {
+      color: rgb(var(--txt2, var(--color_15)))
+    }
+
+    .snt4Te .rEindN::placeholder {
+      color: rgb(var(--txt2, var(--color_15)))
+    }
+
+    .snt4Te .rEindN:hover {
+      background-color: rgba(var(--bgh, 255, 255, 255), var(--alpha-bgh, 1));
+      border-color: rgba(var(--brdh, 163, 217, 246), var(--alpha-brdh, 1));
+      border-style: solid;
+      border-width: var(--brwh, 1px)
+    }
+
+    .snt4Te .rEindN:disabled {
+      background-color: rgba(var(--bgd, 204, 204, 204), var(--alpha-bgd, 1));
+      border-color: rgba(var(--brdd, 163, 217, 246), var(--alpha-brdd, 1));
+      border-style: solid;
+      border-width: var(--brwd, 1px);
+      color: rgb(var(--txtd, 255, 255, 255))
+    }
+
+    .snt4Te:not(.pOExcs) .rEindN:focus {
+      background-color: rgba(var(--bgf, 255, 255, 255), var(--alpha-bgf, 1));
+      border-color: rgba(var(--brdf, 163, 217, 246), var(--alpha-brdf, 1));
+      border-style: solid;
+      border-width: var(--brwf, 1px)
+    }
+
+    .snt4Te.pOExcs .rEindN:invalid {
+      background-color: rgba(var(--bge, 255, 255, 255), var(--alpha-bge, 1));
+      border-color: rgba(var(--brde, 163, 217, 246), var(--alpha-brde, 1));
+      border-style: solid;
+      border-width: var(--brwe, 1px)
+    }
+
+    .snt4Te.pOExcs .rEindN:not(:invalid):focus {
+      background-color: rgba(var(--bgf, 255, 255, 255), var(--alpha-bgf, 1));
+      border-color: rgba(var(--brdf, 163, 217, 246), var(--alpha-brdf, 1));
+      border-style: solid;
+      border-width: var(--brwf, 1px)
+    }
+
+    .YxfMAA {
+      align-items: center;
+      display: grid;
+      justify-items: center;
+      visibility: hidden
+    }
+
+    .YxfMAA>div:first-child {
+      position: absolute
+    }
+
+    .YxfMAA img[src=""] {
+      visibility: hidden
+    }
+
+    .HlRz5e {
+      display: block;
+      height: 100%;
+      width: 100%
+    }
+
+    .HlRz5e img {
+      max-width: var(--wix-img-max-width, 100%)
+    }
+
+    .HlRz5e[data-animate-blur] img {
+      filter: blur(9px);
+      transition: filter .8s ease-in
+    }
+
+    .HlRz5e[data-animate-blur] img[data-load-done] {
+      filter: none
+    }
+
+    .sNF2R0 {
+      opacity: 0
+    }
+
+    .hLoBV3 {
+      transition: opacity var(--transition-duration) cubic-bezier(.37, 0, .63, 1)
+    }
+
+    .Rdf41z,
+    .hLoBV3 {
+      opacity: 1
+    }
+
+    .ftlZWo {
+      transition: opacity var(--transition-duration) cubic-bezier(.37, 0, .63, 1)
+    }
+
+    .ATGlOr,
+    .ftlZWo {
+      opacity: 0
+    }
+
+    .KQSXD0 {
+      transition: opacity var(--transition-duration) cubic-bezier(.64, 0, .78, 0)
+    }
+
+    .KQSXD0,
+    .pagQKE {
+      opacity: 1
+    }
+
+    ._6zG5H {
+      opacity: 0;
+      transition: opacity var(--transition-duration) cubic-bezier(.22, 1, .36, 1)
+    }
+
+    .BB49uC {
+      transform: translateX(100%)
+    }
+
+    .j9xE1V {
+      transition: transform var(--transition-duration) cubic-bezier(.87, 0, .13, 1)
+    }
+
+    .ICs7Rs,
+    .j9xE1V {
+      transform: translateX(0)
+    }
+
+    .DxijZJ {
+      transition: transform var(--transition-duration) cubic-bezier(.87, 0, .13, 1)
+    }
+
+    .B5kjYq,
+    .DxijZJ {
+      transform: translateX(-100%)
+    }
+
+    .cJijIV {
+      transition: transform var(--transition-duration) cubic-bezier(.87, 0, .13, 1)
+    }
+
+    .cJijIV,
+    .hOxaWM {
+      transform: translateX(0)
+    }
+
+    .T9p3fN {
+      transform: translateX(100%);
+      transition: transform var(--transition-duration) cubic-bezier(.87, 0, .13, 1)
+    }
+
+    .qDxYJm {
+      transform: translateY(100%)
+    }
+
+    .aA9V0P {
+      transition: transform var(--transition-duration) cubic-bezier(.87, 0, .13, 1)
+    }
+
+    .YPXPAS,
+    .aA9V0P {
+      transform: translateY(0)
+    }
+
+    .Xf2zsA {
+      transition: transform var(--transition-duration) cubic-bezier(.87, 0, .13, 1)
+    }
+
+    .Xf2zsA,
+    .y7Kt7s {
+      transform: translateY(-100%)
+    }
+
+    .EeUgMu {
+      transition: transform var(--transition-duration) cubic-bezier(.87, 0, .13, 1)
+    }
+
+    .EeUgMu,
+    .fdHrtm {
+      transform: translateY(0)
+    }
+
+    .WIFaG4 {
+      transform: translateY(100%);
+      transition: transform var(--transition-duration) cubic-bezier(.87, 0, .13, 1)
+    }
+
+    .Zl1um4 {
+      --force-state-metadata: forceShowButtons
+    }
+
+    .o_23ep {
+      z-index: 0
+    }
+
+    .o_23ep:not([data-image-mode=flexibleHeight]) .ZRdHtz,
+    .o_23ep:not([data-image-mode=flexibleHeight]) .zT_qMU {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+    .o_23ep[data-image-mode=flexibleHeight] .ZRdHtz {
+      display: grid;
+      grid-template-rows: min-content;
+      position: relative
+    }
+
+    .o_23ep[data-image-mode=flexibleHeight] .zT_qMU {
+      grid-area: 1/1/2/2;
+      position: relative
+    }
+
+    .o_23ep .gAvFno {
+      pointer-events: none
+    }
+
+    .o_23ep .gAvFno .o0VW51 {
+      cursor: pointer;
+      pointer-events: auto
+    }
+
+    .o_23ep .zT_qMU {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+    .o_23ep .EeWG6d {
+      cursor: pointer
+    }
+
+    .o_23ep .EeWG6d .Wg5_4a {
+      display: inline-block
+    }
+
+    .o_23ep .ZTB3Xl {
+      visibility: hidden
+    }
+
+    .o_23ep .ZTB3Xl,
+    .o_23ep .gAvFno,
+    .o_23ep .yEkHUj {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+    .o_23ep .gAvFno {
+      display: grid;
+      z-index: 1
+    }
+
+    .o_23ep .gAvFno .o0VW51 {
+      align-self: center
+    }
+
+    .o_23ep .gAvFno .uz9kAV {
+      justify-self: start
+    }
+
+    .o_23ep .gAvFno .g3Jdt5 {
+      justify-self: end
+    }
+
+    .o_23ep {
+      background: rgba(var(--brd, var(--color_15)), var(--alpha-brd, 1));
+      border-radius: var(--rd, 0);
+      box-shadow: var(--shd, 0 1px 3px rgba(0, 0, 0, .5));
+      overflow: hidden
+    }
+
+    .o_23ep .gAvFno {
+      opacity: 0
+    }
+
+    .o_23ep .gAvFno,
+    .o_23ep .gAvFno .o0VW51 {
+      transition: var(--trns, opacity .5s ease 0s)
+    }
+
+    .o_23ep .gAvFno .o0VW51 {
+      background: url(data:image/png;base64,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) no-repeat 50% 0;
+      height: 70px;
+      opacity: .4;
+      position: absolute;
+      width: 45px
+    }
+
+    .o_23ep .gAvFno .o0VW51:focus,
+    .o_23ep .gAvFno .o0VW51:hover {
+      opacity: 1
+    }
+
+    .o_23ep .gAvFno .uz9kAV {
+      background-position: 0 0;
+      margin-left: 20px
+    }
+
+    .o_23ep .gAvFno .g3Jdt5 {
+      background-position: 100% 0;
+      margin-right: 20px
+    }
+
+    .o_23ep.Zl1um4 .gAvFno {
+      opacity: 1
+    }
+
+    .o_23ep .ZRdHtz {
+      border-radius: var(--rd, 0);
+      overflow: hidden;
+      transform: translateZ(0)
+    }
+
+    .o_23ep .U0U6ua {
+      bottom: var(--brw, 0);
+      opacity: 0;
+      padding: 0 10px 10px 0;
+      position: absolute;
+      right: var(--brw, 0);
+      text-align: right;
+      transition: var(--trns, opacity .5s ease 0s);
+      width: 60px
+    }
+
+    .o_23ep .R9dm4s {
+      color: rgba(var(--txt, var(--color_11)), var(--alpha-txt, 1));
+      display: inline-block;
+      font-family: arial, helvetica, sans-serif;
+      font-size: 12px;
+      padding-left: 5px
+    }
+
+    .o_23ep .EeWG6d {
+      min-height: 10px;
+      text-align: center;
+      width: 20px
+    }
+
+    .o_23ep .EeWG6d,
+    .o_23ep .EeWG6d .Wg5_4a {
+      position: relative
+    }
+
+    .o_23ep .EeWG6d.L1gJai .Wg5_4a {
+      border: 5px solid transparent;
+      border-left: 5px solid rgba(var(--txt, var(--color_11)), var(--alpha-txt, 1));
+      height: 0;
+      width: 0
+    }
+
+    .o_23ep .EeWG6d.GHKJxT .Wg5_4a {
+      border-left: 2px solid rgba(var(--txt, var(--color_11)), var(--alpha-txt, 1));
+      border-right: 2px solid rgba(var(--txt, var(--color_11)), var(--alpha-txt, 1));
+      height: 10px;
+      margin-right: 5px;
+      width: 1px
+    }
+
+    .o_23ep .fc_Nnd {
+      background: none !important;
+      border: var(--brw, 0) solid rgba(var(--brd, var(--color_15)), var(--alpha-brd, 1));
+      border-radius: var(--rd, 0);
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+    :host(.device-mobile-optimized) .o_23ep .gAvFno,
+    body.device-mobile-optimized .o_23ep .gAvFno {
+      opacity: 1
+    }
+
+    :host(.device-mobile-optimized) .o_23ep .gAvFno .o0VW51,
+    body.device-mobile-optimized .o_23ep .gAvFno .o0VW51 {
+      opacity: 1
+    }
+
+    .o_23ep:focus-within .JbGmiU,
+    .o_23ep:focus-within .U0U6ua,
+    .o_23ep:focus-within .gAvFno,
+    .o_23ep:hover .JbGmiU,
+    .o_23ep:hover .U0U6ua,
+    .o_23ep:hover .gAvFno {
+      opacity: 1
+    }
+
+    .o_23ep.E9HSz_ .U0U6ua {
+      right: auto;
+      text-align: left
+    }
+
+    .Wh6lWl .NBLBbN,
+    .Wh6lWl .QS8h3m,
+    .Wh6lWl .aCO9ui,
+    .Wh6lWl .u2zCj9,
+    .Wh6lWl:not([data-image-mode=flexibleWidthFixed]) .x2q2kn {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+    .Wh6lWl[data-image-mode=flexibleHeight] .QS8h3m,
+    .Wh6lWl[data-image-mode=flexibleHeight] ._URC7X {
+      position: relative
+    }
+
+    .Wh6lWl[data-image-mode=flexibleHeight] ._URC7X {
+      display: block
+    }
+
+    .Wh6lWl[data-image-mode=flexibleWidthFixed] .x2q2kn {
+      position: absolute
+    }
+
+    .Wh6lWl .F2F5oO {
+      display: block
+    }
+
+    .Wh6lWl .gnxWt2 {
+      cursor: pointer
+    }
+
+    .Wh6lWl._kp1Jh .UcEVc5 {
+      text-align: right
+    }
+
+    .Wh6lWl .UcEVc5 {
+      background-color: rgba(var(--bg, var(--color_15)), var(--alpha-bg, 1));
+      border-radius: var(--rd, 0);
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+      bottom: var(--brw, 0);
+      left: var(--brw, 0);
+      min-height: 18px;
+      opacity: 0;
+      padding: 10px 100px 10px 10px;
+      position: absolute;
+      right: var(--brw, 0);
+      transition: var(--trns, opacity .5s ease 0s)
+    }
+
+    .Wh6lWl._kp1Jh .UcEVc5 {
+      padding-left: 100px;
+      padding-right: 10px
+    }
+
+    .Wh6lWl .u2zCj9 {
+      bottom: var(--brw, 0);
+      left: var(--brw, 0);
+      position: absolute;
+      right: var(--brw, 0);
+      top: var(--brw, 0)
+    }
+
+    .Wh6lWl .aCO9ui {
+      border-radius: var(--rd, 0);
+      overflow: hidden
+    }
+
+    .Wh6lWl .WY_zBV,
+    .Wh6lWl .gy3LbX {
+      color: rgb(var(--txt, var(--color_11)));
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: pre-line
+    }
+
+    .Wh6lWl .gy3LbX {
+      font: var(--fntt, var(--font_6))
+    }
+
+    .Wh6lWl .WY_zBV {
+      font: var(--fntds, var(--font_8))
+    }
+
+    .D_aDsv {
+      z-index: 0
+    }
+
+    .D_aDsv ._Y9G5d {
+      --px-spacing: var(--spacing) + 1 /var(--number-of-columns) * var(--spacing);
+      --pct-width: 1/var(--number-of-columns) * 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: calc(var(--spacing)*-1);
+      position: relative
+    }
+
+    .D_aDsv ._Y9G5d .f0xbmd {
+      height: var(--row-height);
+      margin-bottom: var(--spacing);
+      margin-right: var(--spacing);
+      position: relative;
+      width: calc(var(--pct-width) - var(--px-spacing))
+    }
+
+    .D_aDsv ._Y9G5d.ME2vnS .f0xbmd:nth-child(4n),
+    .D_aDsv ._Y9G5d.OhpaqK .f0xbmd:nth-child(5n),
+    .D_aDsv ._Y9G5d.PYVg9w .f0xbmd:nth-child(6n),
+    .D_aDsv ._Y9G5d.Pr6SBO .f0xbmd:nth-child(10n),
+    .D_aDsv ._Y9G5d.YqlRjU .f0xbmd:nth-child(2n),
+    .D_aDsv ._Y9G5d.g4gOfr .f0xbmd:nth-child(8n),
+    .D_aDsv ._Y9G5d.nBcGAZ .f0xbmd:nth-child(1n),
+    .D_aDsv ._Y9G5d.pBi9Jm .f0xbmd:nth-child(7n),
+    .D_aDsv ._Y9G5d.r226cz .f0xbmd:nth-child(3n),
+    .D_aDsv ._Y9G5d.tfEVil .f0xbmd:nth-child(9n) {
+      margin-right: 0
+    }
+
+    .D_aDsv .IgjrOn {
+      height: var(--show-more-container-height);
+      pointer-events: none;
+      position: relative
+    }
+
+    .D_aDsv .IgjrOn .L_ITT5 {
+      cursor: pointer;
+      pointer-events: auto
+    }
+
+    .D_aDsv .IgjrOn {
+      text-align: center
+    }
+
+    .D_aDsv .L_ITT5 {
+      color: rgb(var(--txt, var(--color_15)));
+      font: var(--fntds, var(--font_8));
+      line-height: 2.3em;
+      margin-top: 2px;
+      padding: 0 10px;
+      text-decoration: underline
+    }
+
+    .mRurL1:not(.NQAOZ1) .fH_tZ1 {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+    .mRurL1 .ovNGt6 {
+      cursor: pointer
+    }
+
+    .mRurL1 .qphZz2 {
+      white-space: nowrap
+    }
+
+    .mRurL1 .ZWG0jN {
+      white-space: pre-line
+    }
+
+    .mRurL1 .ZWG0jN,
+    .mRurL1 .qphZz2 {
+      overflow: hidden;
+      text-align: var(--text-align);
+      text-overflow: ellipsis
+    }
+
+    .mRurL1 .HqmJfj,
+    .mRurL1 .uU6JvW,
+    .mRurL1 .vuw_D6,
+    .mRurL1 .yrIsna,
+    .mRurL1 .zJLCun {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+    .mRurL1 .fH_tZ1,
+    .mRurL1 .vuw_D6 {
+      border-radius: var(--rd, 0)
+    }
+
+    .mRurL1 .fH_tZ1 {
+      box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, .6))
+    }
+
+    .mRurL1 .vuw_D6 {
+      background: rgba(var(--brd, var(--color_15)), var(--alpha-brd, 1));
+      border: solid var(--brw, 0) rgba(var(--brd, var(--color_15)), var(--alpha-brd, 1));
+      overflow: hidden
+    }
+
+    .mRurL1 .yrIsna {
+      background: rgba(var(--bgh, var(--color_17)), var(--alpha-bgh, 1));
+      opacity: 0;
+      overflow: hidden;
+      padding: 10px;
+      transition: var(--trans, opacity .4s ease 0s)
+    }
+
+    .mRurL1 .qphZz2 {
+      color: rgb(var(--ttl, var(--color_15)));
+      font: var(--fntt, var(--font_6))
+    }
+
+    .mRurL1 .ZWG0jN {
+      color: rgb(var(--txt, var(--color_15)));
+      font: var(--fntds, var(--font_8))
+    }
+
+    .mRurL1:hover .yrIsna {
+      opacity: 1;
+      transition: var(--trans, opacity .4s ease 0s)
+    }
+
+    .mRurL1 .uU6JvW:focus-within .yrIsna {
+      opacity: 1
+    }
+
+    .YxfMAA {
+      align-items: center;
+      display: grid;
+      justify-items: center;
+      visibility: hidden
+    }
+
+    .YxfMAA>div:first-child {
+      position: absolute
+    }
+
+    .YxfMAA img[src=""] {
+      visibility: hidden
+    }
+
+    .HlRz5e {
+      display: block;
+      height: 100%;
+      width: 100%
+    }
+
+    .HlRz5e img {
+      max-width: var(--wix-img-max-width, 100%)
+    }
+
+    .HlRz5e[data-animate-blur] img {
+      filter: blur(9px);
+      transition: filter .8s ease-in
+    }
+
+    .HlRz5e[data-animate-blur] img[data-load-done] {
+      filter: none
+    }
   </style>
   <title>Press | 100BikesForKids</title>
-  <link rel="canonical" href="https://100bikesforkids.com/press.html">
-  <meta property="og:title" content="Press | 100BikesForKids">
-  <meta property="og:url" content="https://100bikesforkids.com/press.html">
-  <meta property="og:site_name" content="100BikesForKids">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Press | 100BikesForKids">
 
-
-  <style id="comp-ldulg3sc_wrapper-styles">
-    #comp-ldulg3sc_wrapper,
-    #comp-ldulg3sc_wrapper>fluid-columns-repeater {
-      height: 2240px;
-      display: block;
-    }
-
-    #comp-ldulg3sc_wrapper #comp-ldulg3so1__item1 {
-      position: absolute;
-      top: 26px;
-      left: 328px;
-      margin: 0;
-    }
-
-    #comp-ldulg3sc_wrapper #comp-ldulg3so1__item-j9r9uz7e {
-      position: absolute;
-      top: 599px;
-      left: 328px;
-      margin: 0;
-    }
-
-    #comp-ldulg3sc_wrapper #comp-ldulg3so1__item-j9r9uxns {
-      position: absolute;
-      top: 1172px;
-      left: 328px;
-      margin: 0;
-    }
-
-    #comp-ldulg3sc_wrapper #comp-ldulg3so1__item-kdzpu1lo {
-      position: absolute;
-      top: 1745px;
-      left: 328px;
-      margin: 0;
-    }
-  </style>
 </head>
 
 <body class="">
@@ -3882,6 +4761,7 @@
       #BACKGROUND_GROUP {
         --transition-duration: 0ms
       }
+
       #mxdyi {
         left: 0;
         margin-left: 0;
@@ -4430,6 +5310,7 @@
         --bg-overlay-color: rgb(var(--color_13));
         --bg-gradient: none
       }
+
       #mainPage {
         left: 0;
         margin-left: 0;
@@ -6082,6 +6963,7 @@
         --bg-overlay-color: rgb(var(--color_13));
         --bg-gradient: none
       }
+
       #pzjh2 {
         left: 0;
         margin-left: 0;
@@ -6180,12 +7062,10 @@
 
   <div id="SITE_CONTAINER">
     <div id="main_MF" class="wix-global-css">
-      <div id="SCROLL_TO_TOP" class="Vd6aQZ ignore-focus SCROLL_TO_TOP" tabindex="-1" role="region"
-        aria-label="top of page"><span class="mHZSwn">top of page</span></div><button id="SKIP_TO_CONTENT_BTN"
-        class="SKIP_TO_CONTENT_BTN LHrbPP has-custom-focus" tabindex="0">Skip to Main Content</button>
-         <div id="BACKGROUND_GROUP" class="BACKGROUND_GROUP">
-        <div id="pageBackground_mxdyi" data-media-height-override-type="" data-media-position-override="false"
-          class="pageBackground_mxdyi BmZ5pC">
+      <div id="SCROLL_TO_TOP" class="Vd6aQZ ignore-focus SCROLL_TO_TOP" tabindex="-1" role="region" aria-label="top of page"><span class="mHZSwn">top of
+          page</span></div><button id="SKIP_TO_CONTENT_BTN" class="SKIP_TO_CONTENT_BTN LHrbPP has-custom-focus" tabindex="0">Skip to Main Content</button>
+      <div id="BACKGROUND_GROUP" class="BACKGROUND_GROUP">
+        <div id="pageBackground_mxdyi" data-media-height-override-type="" data-media-position-override="false" class="pageBackground_mxdyi BmZ5pC">
           <div id="bgLayers_pageBackground_mxdyi" data-hook="bgLayers" class="MW5IWV">
             <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
             <div id="bgMedia_pageBackground_mxdyi" class="VgO9Yg"></div>
@@ -6207,112 +7087,92 @@
                 <div class="CJF7A2">
                   <div data-mesh-id="SITE_HEADERinlineContent" data-testid="inline-content" class="">
                     <div data-mesh-id="SITE_HEADERinlineContent-gridContainer" data-testid="mesh-container-content">
-                      <wix-dropdown-menu id="DrpDwnMn0-rpi"
-                        class="BSjLjI R7lArd DrpDwnMn0-rpi wixui-dropdown-menu hidden-during-prewarmup" tabindex="-1"
-                        dir="ltr" data-stretch-buttons-to-menu-width="true" data-same-width-buttons="false"
-                        data-num-items="5" data-menuborder-y="0" data-menubtn-border="0" data-ribbon-els="0"
-                        data-label-pad="0" data-ribbon-extra="0" data-dropalign="left"
+                      <wix-dropdown-menu id="DrpDwnMn0-rpi" class="BSjLjI R7lArd DrpDwnMn0-rpi wixui-dropdown-menu hidden-during-prewarmup" tabindex="-1"
+                        dir="ltr" data-stretch-buttons-to-menu-width="true" data-same-width-buttons="false" data-num-items="5" data-menuborder-y="0"
+                        data-menubtn-border="0" data-ribbon-els="0" data-label-pad="0" data-ribbon-extra="0" data-dropalign="left"
                         style="visibility: inherit; overflow-x: visible;" data-dropmode="dropDown">
                         <nav class="l9EQj1" id="DrpDwnMn0-rpinavContainer" aria-label="Site">
-                          <ul class="DN7syf" id="DrpDwnMn0-rpiitemsContainer" style="text-align:left"
-                            data-marginallchildren="true">
-                            <li id="DrpDwnMn0-rpi0" data-direction="ltr" data-listposition="left" data-data-id="bmiwri"
-                              data-state="menu false  link" data-index="0"
-                              class="rqt3qI wixui-dropdown-menu__item vDnwi4"
-                              data-original-gap-between-text-and-btn="10" aria-hidden="false"
+                          <ul class="DN7syf" id="DrpDwnMn0-rpiitemsContainer" style="text-align:left" data-marginallchildren="true">
+                            <li id="DrpDwnMn0-rpi0" data-direction="ltr" data-listposition="left" data-data-id="bmiwri" data-state="menu false  link"
+                              data-index="0" class="rqt3qI wixui-dropdown-menu__item vDnwi4" data-original-gap-between-text-and-btn="10" aria-hidden="false"
                               style="width: 128px; height: 25px; position: relative; box-sizing: border-box; overflow: visible; visibility: inherit;">
-                              <a data-testid="linkElement" href="./index.html"
-                                target="_self" class="lY3Nwh" aria-haspopup="false">
+                              <a data-testid="linkElement" href="./index.html" target="_self" class="lY3Nwh" aria-haspopup="false">
                                 <div class="rBTT56">
                                   <div class="" style="text-align:left">
-                                    <p class="foFAdY" style="text-align: left; line-height: 25px;"
-                                      id="DrpDwnMn0-rpi0label">Home</p>
+                                    <p class="foFAdY" style="text-align: left; line-height: 25px;" id="DrpDwnMn0-rpi0label">Home</p>
                                   </div>
                                 </div>
-                              </a></li>
-                            <li id="DrpDwnMn0-rpi1" data-direction="ltr" data-listposition="center"
-                              data-data-id="dataItem-kbfwd0ps" data-state="menu false  link" data-index="1"
-                              class="rqt3qI wixui-dropdown-menu__item vDnwi4"
+                              </a>
+                            </li>
+                            <li id="DrpDwnMn0-rpi1" data-direction="ltr" data-listposition="center" data-data-id="dataItem-kbfwd0ps"
+                              data-state="menu false  link" data-index="1" class="rqt3qI wixui-dropdown-menu__item vDnwi4"
                               data-original-gap-between-text-and-btn="10" aria-hidden="false"
                               style="width: 128px; height: 25px; position: relative; box-sizing: border-box; overflow: visible; visibility: inherit;">
-                              <a data-testid="linkElement"
-                                href="./about.html" target="_self"
-                                class="lY3Nwh" aria-haspopup="false">
+                              <a data-testid="linkElement" href="./about.html" target="_self" class="lY3Nwh" aria-haspopup="false">
                                 <div class="rBTT56">
                                   <div class="" style="text-align:left">
-                                    <p class="foFAdY" style="text-align: left; line-height: 25px;"
-                                      id="DrpDwnMn0-rpi1label">About</p>
+                                    <p class="foFAdY" style="text-align: left; line-height: 25px;" id="DrpDwnMn0-rpi1label">About</p>
                                   </div>
                                 </div>
-                              </a></li>
-                            <li id="DrpDwnMn0-rpi2" data-direction="ltr" data-listposition="center"
-                              data-data-id="dataItem-kgh6f86j" data-state="menu false  link" data-index="2"
-                              class="rqt3qI wixui-dropdown-menu__item vDnwi4"
+                              </a>
+                            </li>
+                            <li id="DrpDwnMn0-rpi2" data-direction="ltr" data-listposition="center" data-data-id="dataItem-kgh6f86j"
+                              data-state="menu false  link" data-index="2" class="rqt3qI wixui-dropdown-menu__item vDnwi4"
                               data-original-gap-between-text-and-btn="10" aria-hidden="false"
                               style="width: 131px; height: 25px; position: relative; box-sizing: border-box; overflow: visible; visibility: inherit;">
-                              <a data-testid="linkElement"
-                                href="./vision.html" target="_self"
-                                class="lY3Nwh" aria-haspopup="false">
+                              <a data-testid="linkElement" href="./vision.html" target="_self" class="lY3Nwh" aria-haspopup="false">
                                 <div class="rBTT56">
                                   <div class="" style="text-align:left">
-                                    <p class="foFAdY" style="text-align: left; line-height: 25px;"
-                                      id="DrpDwnMn0-rpi2label">Vision</p>
+                                    <p class="foFAdY" style="text-align: left; line-height: 25px;" id="DrpDwnMn0-rpi2label">Vision</p>
                                   </div>
                                 </div>
-                              </a></li>
-                            <li id="DrpDwnMn0-rpi3" data-direction="ltr" data-listposition="center"
-                              data-data-id="dataItem-kbfwd8az" data-state="menu false  link" data-index="3"
-                              class="rqt3qI wixui-dropdown-menu__item vDnwi4"
+                              </a>
+                            </li>
+                            <li id="DrpDwnMn0-rpi3" data-direction="ltr" data-listposition="center" data-data-id="dataItem-kbfwd8az"
+                              data-state="menu false  link" data-index="3" class="rqt3qI wixui-dropdown-menu__item vDnwi4"
                               data-original-gap-between-text-and-btn="10" aria-hidden="false"
                               style="width: 137px; height: 25px; position: relative; box-sizing: border-box; overflow: visible; visibility: inherit;">
-                              <a data-testid="linkElement"
-                                href="./gallery.html" target="_self"
-                                class="lY3Nwh" aria-haspopup="false">
+                              <a data-testid="linkElement" href="./gallery.html" target="_self" class="lY3Nwh" aria-haspopup="false">
                                 <div class="rBTT56">
                                   <div class="" style="text-align:left">
-                                    <p class="foFAdY" style="text-align: left; line-height: 25px;"
-                                      id="DrpDwnMn0-rpi3label">Gallery</p>
+                                    <p class="foFAdY" style="text-align: left; line-height: 25px;" id="DrpDwnMn0-rpi3label">Gallery</p>
                                   </div>
                                 </div>
-                              </a></li>
-                            <li id="DrpDwnMn0-rpi4" data-direction="ltr" data-listposition="right"
-                              data-data-id="dataItem-ldulg3r1" data-state="menu selected  link" data-index="4"
-                              class="rqt3qI wixui-dropdown-menu__item vDnwi4"
+                              </a>
+                            </li>
+                            <li id="DrpDwnMn0-rpi4" data-direction="ltr" data-listposition="right" data-data-id="dataItem-ldulg3r1"
+                              data-state="menu selected  link" data-index="4" class="rqt3qI wixui-dropdown-menu__item vDnwi4"
                               data-original-gap-between-text-and-btn="10" aria-hidden="false"
                               style="width: 127px; height: 25px; position: relative; box-sizing: border-box; overflow: visible; visibility: inherit;">
-                              <a data-testid="linkElement"
-                                href="./press.html" target="_self"
-                                class="lY3Nwh" aria-haspopup="false">
+                              <a data-testid="linkElement" href="./press.html" target="_self" class="lY3Nwh" aria-haspopup="false">
                                 <div class="rBTT56">
                                   <div class="" style="text-align:left">
-                                    <p class="foFAdY" style="text-align: left; line-height: 25px;"
-                                      id="DrpDwnMn0-rpi4label">Press</p>
+                                    <p class="foFAdY" style="text-align: left; line-height: 25px;" id="DrpDwnMn0-rpi4label">Press</p>
                                   </div>
                                 </div>
-                              </a></li>
-                            <li id="DrpDwnMn0-rpi__more__" data-direction="ltr" data-listposition="right"
-                              data-state="menu false  header" data-index="__more__" data-dropdown="false"
-                              class="iryznZ vDnwi4" data-original-gap-between-text-and-btn="10" aria-hidden="true"
+                              </a>
+                            </li>
+                            <li id="DrpDwnMn0-rpi__more__" data-direction="ltr" data-listposition="right" data-state="menu false  header" data-index="__more__"
+                              data-dropdown="false" class="iryznZ vDnwi4" data-original-gap-between-text-and-btn="10" aria-hidden="true"
                               style="height: 0px; overflow: hidden; position: absolute; visibility: hidden;">
                               <div data-testid="linkElement" class="lY3Nwh" tabindex="0" aria-haspopup="false">
                                 <div class="rBTT56">
                                   <div class="" style="text-align:left">
-                                    <p class="foFAdY" style="text-align:left" id="DrpDwnMn0-rpi__more__label"
-                                      tabindex="-1">More</p>
+                                    <p class="foFAdY" style="text-align:left" id="DrpDwnMn0-rpi__more__label" tabindex="-1">More</p>
                                   </div>
                                 </div>
                               </div>
                             </li>
                           </ul>
-                          <div class="JdScD2" id="DrpDwnMn0-rpidropWrapper" data-dropalign="left"
-                            data-dropdown-shown="false" style="inset: 25px auto auto 524px;">
-                            <ul class="k8K0Wj wixui-dropdown-menu__submenu" id="DrpDwnMn0-rpimoreContainer"
-                              style="left: 524px; right: auto;"></ul>
+                          <div class="JdScD2" id="DrpDwnMn0-rpidropWrapper" data-dropalign="left" data-dropdown-shown="false"
+                            style="inset: 25px auto auto 524px;">
+                            <ul class="k8K0Wj wixui-dropdown-menu__submenu" id="DrpDwnMn0-rpimoreContainer" style="left: 524px; right: auto;"></ul>
                           </div>
                           <div style="display:none" id="DrpDwnMn0-rpinavContainer-hiddenA11ySubMenuIndication">Use tab
                             to navigate through the menu items.</div>
                         </nav>
-                      </wix-dropdown-menu></div>
+                      </wix-dropdown-menu>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -6325,188 +7185,139 @@
                 <div class="HT5ybB">
                   <div id="Containermxdyi" class="Containermxdyi SPY_vo">
                     <div data-mesh-id="ContainermxdyiinlineContent" data-testid="inline-content" class="">
-                      <div data-mesh-id="ContainermxdyiinlineContent-gridContainer"
-                        data-testid="mesh-container-content">
+                      <div data-mesh-id="ContainermxdyiinlineContent-gridContainer" data-testid="mesh-container-content">
                         <section id="comp-ldulg3rc" tabindex="-1" class="Oqnisf comp-ldulg3rc wixui-section">
                           <div id="bgLayers_comp-ldulg3rc" data-hook="bgLayers" class="MW5IWV">
                             <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
                             <div id="bgMedia_comp-ldulg3rc" class="VgO9Yg"></div>
                           </div>
                           <div data-mesh-id="comp-ldulg3rcinlineContent" data-testid="inline-content" class="">
-                            <div data-mesh-id="comp-ldulg3rcinlineContent-gridContainer"
-                              data-testid="mesh-container-content">
-                              <div id="comp-ldulg3rr" class="KcpHeO tz5f0K comp-ldulg3rr wixui-rich-text"
-                                data-testid="richTextElement">
-                                <h1 class="font_0 wixui-rich-text__text"
-                                  style="font-size:40px; line-height:normal; text-align:center;"><span
-                                    class="color_23 wixui-rich-text__text"><span style="font-size:40px;"
-                                      class="wixui-rich-text__text"><span
-                                        style="font-family:fredericka the great,fantasy;"
-                                        class="wixui-rich-text__text"><span style="letter-spacing:normal;"
+                            <div data-mesh-id="comp-ldulg3rcinlineContent-gridContainer" data-testid="mesh-container-content">
+                              <div id="comp-ldulg3rr" class="KcpHeO tz5f0K comp-ldulg3rr wixui-rich-text" data-testid="richTextElement">
+                                <h1 class="font_0 wixui-rich-text__text" style="font-size:40px; line-height:normal; text-align:center;"><span
+                                    class="color_23 wixui-rich-text__text"><span style="font-size:40px;" class="wixui-rich-text__text"><span
+                                        style="font-family:fredericka the great,fantasy;" class="wixui-rich-text__text"><span style="letter-spacing:normal;"
                                           class="wixui-rich-text__text">Media Coverage</span></span></span></span></h1>
                               </div>
-                              <div id="comp-ldulg3sc" class="comp-ldulg3sc wixui-repeater">
-                                <div class="o6oDlF" id="comp-ldulg3sc_wrapper"><fluid-columns-repeater
-                                    horizontal-gap="26.5" vertical-gap="26.5" justify-content="center" direction="ltr"
-                                    container-id="comp-ldulg3sc_wrapper" items="4" class="GPmm8Z" role="list" style="">
-                                    <div id="comp-ldulg3so1__item1" class="comp-ldulg3so1 YzqVVZ wixui-repeater__item"
-                                      role="listitem">
-                                      <div id="bgLayers_comp-ldulg3so1__item1" data-hook="bgLayers" class="MW5IWV">
-                                        <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
-                                        <div id="bgMedia_comp-ldulg3so1__item1" class="VgO9Yg"></div>
-                                      </div>
-                                      <div data-mesh-id="comp-ldulg3so1__item1inlineContent"
-                                        data-testid="inline-content" class="">
-                                        <div data-mesh-id="comp-ldulg3so1__item1inlineContent-gridContainer"
-                                          data-testid="mesh-container-content">
-                                          <div id="comp-ldulg3t6__item1"
-                                            class="MazNVa comp-ldulg3t6 wixui-image rYiAuL"><a data-testid="linkElement"
+                              <div id="comp-ldulg3sc" class="comp-ldulg3sc">
+                                <div class="stories" id="comp-ldulg3sc_wrapper">
+                                  <div id="comp-ldulg3so1__item1" class="comp-ldulg3so1 YzqVVZ" role="listitem">
+                                    <div id="bgLayers_comp-ldulg3so1__item1" data-hook="bgLayers" class="MW5IWV">
+                                      <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                      <div id="bgMedia_comp-ldulg3so1__item1" class="VgO9Yg"></div>
+                                    </div>
+                                    <div data-mesh-id="comp-ldulg3so1__item1inlineContent" data-testid="inline-content" class="">
+                                      <div data-mesh-id="comp-ldulg3so1__item1inlineContent-gridContainer" data-testid="mesh-container-content">
+                                        <div id="comp-ldulg3t6__item1" class="MazNVa comp-ldulg3t6 wixui-image rYiAuL">
+                                          <a data-testid="linkElement"
+                                            href="https://www.facebook.com/ReturningTheFavor/videos/the-texas-family-fixing-bikes-for-kids/908733956201486/"
+                                            target="_blank" rel="noreferrer noopener" class="j7pOnl"><wow-image id="img_comp-ldulg3t6__item1"
+                                              class="HlRz5e BI8PVQ"
+                                              data-image-info="{&quot;containerId&quot;:&quot;comp-ldulg3t6__item1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:569,&quot;targetHeight&quot;:431,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1413,&quot;height&quot;:1008,&quot;uri&quot;:&quot;04d014_5140480e7f614ca7a0ea2e23f14716b7~mv2.png&quot;,&quot;name&quot;:&quot;ReturningthefavorThumb3.PNG&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                              data-bg-effect-name="" data-has-ssr-src=""><img
+                                                src="./Press _ 100BikesForKids_files/ReturningthefavorThumb3_PNG.png" alt="ReturningthefavorThumb3.PNG"
+                                                width="569" height="431" style="width: 569px; height: 431px; object-fit: cover; object-position: 50% 50%;"
+                                                fetchpriority="high"></wow-image></a>
+                                        </div>
+                                        <div id="comp-ldulg3tl__item1" class="KcpHeO tz5f0K comp-ldulg3tl wixui-rich-text" data-testid="richTextElement">
+                                          <p class="font_4 wixui-rich-text__text" style="font-size:26px; text-align:center;"><a
                                               href="https://www.facebook.com/ReturningTheFavor/videos/the-texas-family-fixing-bikes-for-kids/908733956201486/"
-                                              target="_blank" rel="noreferrer noopener" class="j7pOnl"><wow-image
-                                                id="img_comp-ldulg3t6__item1" class="HlRz5e BI8PVQ"
-                                                data-image-info="{&quot;containerId&quot;:&quot;comp-ldulg3t6__item1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:569,&quot;targetHeight&quot;:431,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1413,&quot;height&quot;:1008,&quot;uri&quot;:&quot;04d014_5140480e7f614ca7a0ea2e23f14716b7~mv2.png&quot;,&quot;name&quot;:&quot;ReturningthefavorThumb3.PNG&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
-                                                data-bg-effect-name="" data-has-ssr-src=""><img
-                                                  src="./Press _ 100BikesForKids_files/ReturningthefavorThumb3_PNG.png"
-                                                  alt="ReturningthefavorThumb3.PNG" width="569" height="431"
-                                                  style="width: 569px; height: 431px; object-fit: cover; object-position: 50% 50%;"
-                                                  fetchpriority="high"></wow-image></a></div>
-                                          <div id="comp-ldulg3tl__item1"
-                                            class="KcpHeO tz5f0K comp-ldulg3tl wixui-rich-text"
-                                            data-testid="richTextElement">
-                                            <p class="font_4 wixui-rich-text__text"
-                                              style="font-size:26px; text-align:center;"><a
-                                                href="https://www.facebook.com/ReturningTheFavor/videos/the-texas-family-fixing-bikes-for-kids/908733956201486/"
-                                                target="_blank" rel="noreferrer noopener"
-                                                class="wixui-rich-text__text"><span
-                                                  class="color_20 wixui-rich-text__text"><span
-                                                    style="text-decoration:underline;"
-                                                    class="wixui-rich-text__text"><span style="font-size:26px;"
-                                                      class="wixui-rich-text__text">Returning the
-                                                      Favor</span></span></span></a></p>
-                                          </div>
+                                              target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><span
+                                                class="color_20 wixui-rich-text__text"><span style="text-decoration:underline;"
+                                                  class="wixui-rich-text__text"><span style="font-size:26px;" class="wixui-rich-text__text">Returning the
+                                                    Favor</span></span></span></a></p>
                                         </div>
                                       </div>
                                     </div>
-                                    <div id="comp-ldulg3so1__item-j9r9uz7e"
-                                      class="comp-ldulg3so1 YzqVVZ wixui-repeater__item" role="listitem">
-                                      <div id="bgLayers_comp-ldulg3so1__item-j9r9uz7e" data-hook="bgLayers"
-                                        class="MW5IWV">
-                                        <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
-                                        <div id="bgMedia_comp-ldulg3so1__item-j9r9uz7e" class="VgO9Yg"></div>
-                                      </div>
-                                      <div data-mesh-id="comp-ldulg3so1__item-j9r9uz7einlineContent"
-                                        data-testid="inline-content" class="">
-                                        <div data-mesh-id="comp-ldulg3so1__item-j9r9uz7einlineContent-gridContainer"
-                                          data-testid="mesh-container-content">
-                                          <div id="comp-ldulg3t6__item-j9r9uz7e"
-                                            class="MazNVa comp-ldulg3t6 wixui-image rYiAuL"><a data-testid="linkElement"
+                                  </div>
+                                  <div id="comp-ldulg3so1__item-j9r9uz7e" class="comp-ldulg3so1 YzqVVZ" role="listitem">
+                                    <div id="bgLayers_comp-ldulg3so1__item-j9r9uz7e" data-hook="bgLayers" class="MW5IWV">
+                                      <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                      <div id="bgMedia_comp-ldulg3so1__item-j9r9uz7e" class="VgO9Yg"></div>
+                                    </div>
+                                    <div data-mesh-id="comp-ldulg3so1__item-j9r9uz7einlineContent" data-testid="inline-content" class="">
+                                      <div data-mesh-id="comp-ldulg3so1__item-j9r9uz7einlineContent-gridContainer" data-testid="mesh-container-content">
+                                        <div id="comp-ldulg3t6__item-j9r9uz7e" class="MazNVa comp-ldulg3t6 wixui-image rYiAuL"><a data-testid="linkElement"
+                                            href="https://cbsaustin.com/news/local/austin-man-donates-over-100-bikes-to-kids-in-underserved-communities-looking-to-grow"
+                                            target="_blank" rel="noreferrer noopener" class="j7pOnl"><wow-image id="img_comp-ldulg3t6__item-j9r9uz7e"
+                                              class="HlRz5e BI8PVQ"
+                                              data-image-info="{&quot;containerId&quot;:&quot;comp-ldulg3t6__item-j9r9uz7e&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:569,&quot;targetHeight&quot;:431,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1182,&quot;height&quot;:986,&quot;uri&quot;:&quot;04d014_85270273a2bf44da98ba6ff6198e2bb0~mv2.png&quot;,&quot;name&quot;:&quot;CBSAustinThumbnail.PNG&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                              data-bg-effect-name="" data-has-ssr-src=""><img src="./Press _ 100BikesForKids_files/CBSAustinThumbnail_PNG.png"
+                                                alt="CBSAustinThumbnail.PNG" width="569" height="431"
+                                                style="width: 569px; height: 431px; object-fit: cover; object-position: 50% 50%;"
+                                                fetchpriority="high"></wow-image></a></div>
+                                        <div id="comp-ldulg3tl__item-j9r9uz7e" class="KcpHeO tz5f0K comp-ldulg3tl wixui-rich-text"
+                                          data-testid="richTextElement">
+                                          <p class="font_4 wixui-rich-text__text" style="font-size:26px; text-align:center;"><a
                                               href="https://cbsaustin.com/news/local/austin-man-donates-over-100-bikes-to-kids-in-underserved-communities-looking-to-grow"
-                                              target="_blank" rel="noreferrer noopener" class="j7pOnl"><wow-image
-                                                id="img_comp-ldulg3t6__item-j9r9uz7e" class="HlRz5e BI8PVQ"
-                                                data-image-info="{&quot;containerId&quot;:&quot;comp-ldulg3t6__item-j9r9uz7e&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:569,&quot;targetHeight&quot;:431,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1182,&quot;height&quot;:986,&quot;uri&quot;:&quot;04d014_85270273a2bf44da98ba6ff6198e2bb0~mv2.png&quot;,&quot;name&quot;:&quot;CBSAustinThumbnail.PNG&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
-                                                data-bg-effect-name="" data-has-ssr-src=""><img
-                                                  src="./Press _ 100BikesForKids_files/CBSAustinThumbnail_PNG.png"
-                                                  alt="CBSAustinThumbnail.PNG" width="569" height="431"
-                                                  style="width: 569px; height: 431px; object-fit: cover; object-position: 50% 50%;"
-                                                  fetchpriority="high"></wow-image></a></div>
-                                          <div id="comp-ldulg3tl__item-j9r9uz7e"
-                                            class="KcpHeO tz5f0K comp-ldulg3tl wixui-rich-text"
-                                            data-testid="richTextElement">
-                                            <p class="font_4 wixui-rich-text__text"
-                                              style="font-size:26px; text-align:center;"><a
-                                                href="https://cbsaustin.com/news/local/austin-man-donates-over-100-bikes-to-kids-in-underserved-communities-looking-to-grow"
-                                                target="_blank" rel="noreferrer noopener"
-                                                class="wixui-rich-text__text"><span
-                                                  class="color_20 wixui-rich-text__text"><span
-                                                    style="text-decoration:underline;"
-                                                    class="wixui-rich-text__text"><span style="font-size:26px;"
-                                                      class="wixui-rich-text__text">CBS Austin</span></span></span></a>
-                                            </p>
-                                          </div>
+                                              target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><span
+                                                class="color_20 wixui-rich-text__text"><span style="text-decoration:underline;"
+                                                  class="wixui-rich-text__text"><span style="font-size:26px;" class="wixui-rich-text__text">CBS
+                                                    Austin</span></span></span></a>
+                                          </p>
                                         </div>
                                       </div>
                                     </div>
-                                    <div id="comp-ldulg3so1__item-j9r9uxns"
-                                      class="comp-ldulg3so1 YzqVVZ wixui-repeater__item" role="listitem">
-                                      <div id="bgLayers_comp-ldulg3so1__item-j9r9uxns" data-hook="bgLayers"
-                                        class="MW5IWV">
-                                        <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
-                                        <div id="bgMedia_comp-ldulg3so1__item-j9r9uxns" class="VgO9Yg"></div>
-                                      </div>
-                                      <div data-mesh-id="comp-ldulg3so1__item-j9r9uxnsinlineContent"
-                                        data-testid="inline-content" class="">
-                                        <div data-mesh-id="comp-ldulg3so1__item-j9r9uxnsinlineContent-gridContainer"
-                                          data-testid="mesh-container-content">
-                                          <div id="comp-ldulg3t6__item-j9r9uxns"
-                                            class="MazNVa comp-ldulg3t6 wixui-image rYiAuL"><a data-testid="linkElement"
+                                  </div>
+                                  <div id="comp-ldulg3so1__item-j9r9uxns" class="comp-ldulg3so1 YzqVVZ" role="listitem">
+                                    <div id="bgLayers_comp-ldulg3so1__item-j9r9uxns" data-hook="bgLayers" class="MW5IWV">
+                                      <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                      <div id="bgMedia_comp-ldulg3so1__item-j9r9uxns" class="VgO9Yg"></div>
+                                    </div>
+                                    <div data-mesh-id="comp-ldulg3so1__item-j9r9uxnsinlineContent" data-testid="inline-content" class="">
+                                      <div data-mesh-id="comp-ldulg3so1__item-j9r9uxnsinlineContent-gridContainer" data-testid="mesh-container-content">
+                                        <div id="comp-ldulg3t6__item-j9r9uxns" class="MazNVa comp-ldulg3t6 wixui-image rYiAuL"><a data-testid="linkElement"
+                                            href="https://www.kxan.com/news/local/austin/texas-school-for-the-deaf-students-surprised-with-30-brand-new-bikes/"
+                                            target="_blank" rel="noreferrer noopener" class="j7pOnl"><wow-image id="img_comp-ldulg3t6__item-j9r9uxns"
+                                              class="HlRz5e BI8PVQ"
+                                              data-image-info="{&quot;containerId&quot;:&quot;comp-ldulg3t6__item-j9r9uxns&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:569,&quot;targetHeight&quot;:431,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1295,&quot;height&quot;:1050,&quot;uri&quot;:&quot;04d014_da3b297e69b44db0a65a080cc05240ff~mv2.png&quot;,&quot;name&quot;:&quot;KXANThumbnail.PNG&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                              data-bg-effect-name="" data-has-ssr-src=""><img src="./Press _ 100BikesForKids_files/KXANThumbnail_PNG.png"
+                                                alt="KXANThumbnail.PNG" width="569" height="431"
+                                                style="width: 569px; height: 431px; object-fit: cover; object-position: 50% 50%;"
+                                                fetchpriority="high"></wow-image></a></div>
+                                        <div id="comp-ldulg3tl__item-j9r9uxns" class="KcpHeO tz5f0K comp-ldulg3tl wixui-rich-text"
+                                          data-testid="richTextElement">
+                                          <p class="font_4 wixui-rich-text__text" style="font-size:26px; text-align:center;"><a
                                               href="https://www.kxan.com/news/local/austin/texas-school-for-the-deaf-students-surprised-with-30-brand-new-bikes/"
-                                              target="_blank" rel="noreferrer noopener" class="j7pOnl"><wow-image
-                                                id="img_comp-ldulg3t6__item-j9r9uxns" class="HlRz5e BI8PVQ"
-                                                data-image-info="{&quot;containerId&quot;:&quot;comp-ldulg3t6__item-j9r9uxns&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:569,&quot;targetHeight&quot;:431,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1295,&quot;height&quot;:1050,&quot;uri&quot;:&quot;04d014_da3b297e69b44db0a65a080cc05240ff~mv2.png&quot;,&quot;name&quot;:&quot;KXANThumbnail.PNG&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
-                                                data-bg-effect-name="" data-has-ssr-src=""><img
-                                                  src="./Press _ 100BikesForKids_files/KXANThumbnail_PNG.png"
-                                                  alt="KXANThumbnail.PNG" width="569" height="431"
-                                                  style="width: 569px; height: 431px; object-fit: cover; object-position: 50% 50%;"
-                                                  fetchpriority="high"></wow-image></a></div>
-                                          <div id="comp-ldulg3tl__item-j9r9uxns"
-                                            class="KcpHeO tz5f0K comp-ldulg3tl wixui-rich-text"
-                                            data-testid="richTextElement">
-                                            <p class="font_4 wixui-rich-text__text"
-                                              style="font-size:26px; text-align:center;"><a
-                                                href="https://www.kxan.com/news/local/austin/texas-school-for-the-deaf-students-surprised-with-30-brand-new-bikes/"
-                                                target="_blank" rel="noreferrer noopener"
-                                                class="wixui-rich-text__text"><span
-                                                  class="color_20 wixui-rich-text__text"><span
-                                                    style="text-decoration:underline;"
-                                                    class="wixui-rich-text__text"><span style="font-size:26px;"
-                                                      class="wixui-rich-text__text">KXAN Austin</span></span></span></a>
-                                            </p>
-                                          </div>
+                                              target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><span
+                                                class="color_20 wixui-rich-text__text"><span style="text-decoration:underline;"
+                                                  class="wixui-rich-text__text"><span style="font-size:26px;" class="wixui-rich-text__text">KXAN
+                                                    Austin</span></span></span></a>
+                                          </p>
                                         </div>
                                       </div>
                                     </div>
-                                    <div id="comp-ldulg3so1__item-kdzpu1lo"
-                                      class="comp-ldulg3so1 YzqVVZ wixui-repeater__item" role="listitem">
-                                      <div id="bgLayers_comp-ldulg3so1__item-kdzpu1lo" data-hook="bgLayers"
-                                        class="MW5IWV">
-                                        <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
-                                        <div id="bgMedia_comp-ldulg3so1__item-kdzpu1lo" class="VgO9Yg"></div>
-                                      </div>
-                                      <div data-mesh-id="comp-ldulg3so1__item-kdzpu1loinlineContent"
-                                        data-testid="inline-content" class="">
-                                        <div data-mesh-id="comp-ldulg3so1__item-kdzpu1loinlineContent-gridContainer"
-                                          data-testid="mesh-container-content">
-                                          <div id="comp-ldulg3t6__item-kdzpu1lo"
-                                            class="MazNVa comp-ldulg3t6 wixui-image rYiAuL"><a data-testid="linkElement"
-                                              href="https://woom.com/en_US/woomgives-2022" target="_blank"
-                                              rel="noreferrer noopener" class="j7pOnl"><wow-image
-                                                id="img_comp-ldulg3t6__item-kdzpu1lo" class="HlRz5e BI8PVQ"
-                                                data-image-info="{&quot;containerId&quot;:&quot;comp-ldulg3t6__item-kdzpu1lo&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:569,&quot;targetHeight&quot;:431,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1167,&quot;height&quot;:1046,&quot;uri&quot;:&quot;04d014_0a364fcbc68348339527e7aa1d0c0c9c~mv2.png&quot;,&quot;name&quot;:&quot;woomthumbnail.PNG&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
-                                                data-bg-effect-name="" data-has-ssr-src=""><img
-                                                  src="./Press _ 100BikesForKids_files/woomthumbnail_PNG.png"
-                                                  alt="woomthumbnail.PNG" width="569" height="431"
-                                                  style="width: 569px; height: 431px; object-fit: cover; object-position: 50% 50%;"
-                                                  fetchpriority="high"></wow-image></a></div>
-                                          <div id="comp-ldulg3tl__item-kdzpu1lo"
-                                            class="KcpHeO tz5f0K comp-ldulg3tl wixui-rich-text"
-                                            data-testid="richTextElement">
-                                            <p class="font_4 wixui-rich-text__text"
-                                              style="font-size:26px; text-align:center;"><a
-                                                href="https://woom.com/en_US/woomgives-2022" target="_blank"
-                                                rel="noreferrer noopener" class="wixui-rich-text__text"><span
-                                                  class="color_20 wixui-rich-text__text"><span
-                                                    style="text-decoration:underline;"
-                                                    class="wixui-rich-text__text"><span style="font-size:26px;"
-                                                      class="wixui-rich-text__text">woomgives
-                                                      2022</span></span></span></a></p>
-                                          </div>
+                                  </div>
+                                  <div id="comp-ldulg3so1__item-kdzpu1lo" class="comp-ldulg3so1 YzqVVZ" role="listitem">
+                                    <div id="bgLayers_comp-ldulg3so1__item-kdzpu1lo" data-hook="bgLayers" class="MW5IWV">
+                                      <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                      <div id="bgMedia_comp-ldulg3so1__item-kdzpu1lo" class="VgO9Yg"></div>
+                                    </div>
+                                    <div data-mesh-id="comp-ldulg3so1__item-kdzpu1loinlineContent" data-testid="inline-content" class="">
+                                      <div data-mesh-id="comp-ldulg3so1__item-kdzpu1loinlineContent-gridContainer" data-testid="mesh-container-content">
+                                        <div id="comp-ldulg3t6__item-kdzpu1lo" class="MazNVa comp-ldulg3t6 wixui-image rYiAuL"><a data-testid="linkElement"
+                                            href="https://woom.com/en_US/woomgives-2022" target="_blank" rel="noreferrer noopener" class="j7pOnl"><wow-image
+                                              id="img_comp-ldulg3t6__item-kdzpu1lo" class="HlRz5e BI8PVQ"
+                                              data-image-info="{&quot;containerId&quot;:&quot;comp-ldulg3t6__item-kdzpu1lo&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:569,&quot;targetHeight&quot;:431,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1167,&quot;height&quot;:1046,&quot;uri&quot;:&quot;04d014_0a364fcbc68348339527e7aa1d0c0c9c~mv2.png&quot;,&quot;name&quot;:&quot;woomthumbnail.PNG&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                              data-bg-effect-name="" data-has-ssr-src=""><img src="./Press _ 100BikesForKids_files/woomthumbnail_PNG.png"
+                                                alt="woomthumbnail.PNG" width="569" height="431"
+                                                style="width: 569px; height: 431px; object-fit: cover; object-position: 50% 50%;"
+                                                fetchpriority="high"></wow-image></a></div>
+                                        <div id="comp-ldulg3tl__item-kdzpu1lo" class="KcpHeO tz5f0K comp-ldulg3tl wixui-rich-text"
+                                          data-testid="richTextElement">
+                                          <p class="font_4 wixui-rich-text__text" style="font-size:26px; text-align:center;"><a
+                                              href="https://woom.com/en_US/woomgives-2022" target="_blank" rel="noreferrer noopener"
+                                              class="wixui-rich-text__text"><span class="color_20 wixui-rich-text__text"><span
+                                                  style="text-decoration:underline;" class="wixui-rich-text__text"><span style="font-size:26px;"
+                                                    class="wixui-rich-text__text">woomgives
+                                                    2022</span></span></span></a></p>
                                         </div>
                                       </div>
                                     </div>
-                                  </fluid-columns-repeater></div>
+                                  </div>
+                                </div>
                               </div>
                             </div>
-                          </div>
                         </section>
                       </div>
                     </div>
@@ -6527,11 +7338,9 @@
                 <div class="CJF7A2">
                   <div data-mesh-id="SITE_FOOTERinlineContent" data-testid="inline-content" class="">
                     <div data-mesh-id="SITE_FOOTERinlineContent-gridContainer" data-testid="mesh-container-content">
-                      <div id="SITE_STRUCTURE_WRichText_1"
-                        class="KcpHeO tz5f0K SITE_STRUCTURE_WRichText_1 wixui-rich-text" data-testid="richTextElement">
-                        <p class="font_9 wixui-rich-text__text" style="line-height:normal; font-size:13px;"><span
-                            style="letter-spacing:normal;" class="wixui-rich-text__text"><span
-                              class="color_16 wixui-rich-text__text">© 2020 by VivaBikesAustin.org</span></span></p>
+                      <div id="SITE_STRUCTURE_WRichText_1" class="KcpHeO tz5f0K SITE_STRUCTURE_WRichText_1 wixui-rich-text" data-testid="richTextElement">
+                        <p class="font_9 wixui-rich-text__text" style="line-height:normal; font-size:13px;"><span style="letter-spacing:normal;"
+                            class="wixui-rich-text__text"><span class="color_16 wixui-rich-text__text">© 2020 by VivaBikesAustin.org</span></span></p>
                       </div>
                     </div>
                   </div>
@@ -6541,8 +7350,8 @@
           </footer>
         </div>
       </div>
-      <div id="SCROLL_TO_BOTTOM" class="Vd6aQZ ignore-focus SCROLL_TO_BOTTOM" tabindex="-1" role="region"
-        aria-label="bottom of page"><span class="mHZSwn">bottom of page</span></div>
+      <div id="SCROLL_TO_BOTTOM" class="Vd6aQZ ignore-focus SCROLL_TO_BOTTOM" tabindex="-1" role="region" aria-label="bottom of page"><span
+          class="mHZSwn">bottom of page</span></div>
     </div>
   </div>
 
