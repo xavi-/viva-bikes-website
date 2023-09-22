@@ -56,13 +56,6 @@
       background-color: #5f6360
     }
 
-    body.device-mobile-non-optimized.fullScreenMode #MOBILE_ACTIONS_MENU,
-    body.device-mobile-non-optimized.fullScreenMode #SITE_BACKGROUND,
-    body.device-mobile-non-optimized.fullScreenMode #site-root,
-    body.fullScreenMode #WIX_ADS {
-      visibility: hidden
-    }
-
     body.fullScreenMode {
       overflow-x: hidden !important;
       overflow-y: hidden !important
@@ -100,56 +93,6 @@
 
     body.blockSiteScrolling #SITE_CONTAINER {
       margin-top: calc(var(--blocked-site-scroll-margin-top)*-1)
-    }
-
-    body.blockSiteScrolling:not(.responsive) #WIX_ADS {
-      margin-top: var(--blocked-site-scroll-margin-top)
-    }
-
-    @keyframes slide-horizontal-new {
-      0% {
-        transform: translateX(100%)
-      }
-    }
-
-    @keyframes slide-horizontal-old {
-      80% {
-        opacity: 1
-      }
-
-      to {
-        opacity: 0;
-        transform: translateX(-100%)
-      }
-    }
-
-    @keyframes slide-vertical-new {
-      0% {
-        transform: translateY(-100%)
-      }
-    }
-
-    @keyframes slide-vertical-old {
-      80% {
-        opacity: 1
-      }
-
-      to {
-        opacity: 0;
-        transform: translateY(100%)
-      }
-    }
-
-    @keyframes out-in-new {
-      0% {
-        opacity: 0
-      }
-    }
-
-    @keyframes out-in-old {
-      to {
-        opacity: 0
-      }
     }
 
     html[data-page-transition=SlideHorizontal]::view-transition-old(page-group) {
